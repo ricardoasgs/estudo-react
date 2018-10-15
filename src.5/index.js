@@ -4,10 +4,8 @@ import Family from "./Family";
 import Member from "./Member";
 
 ReactDOM.render(
-  <Family lastName="Silva">
-    <Member name="Joao" />
-    <Member name="Rafael" />
-    <Member name="Julio" />
+  <Family>
+    <Member name="Joao" lastName="Silva" />
   </Family>,
   document.getElementById("root")
 );
