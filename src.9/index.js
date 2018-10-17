@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Field from "./Field";
+import ClassComponent from "./classComponent";
 
 ReactDOM.render(
-  <Field initialValue="teste" />,
+  <ClassComponent label="Contador" initialValue={10} value={10} />,
   document.getElementById("root")
 );
